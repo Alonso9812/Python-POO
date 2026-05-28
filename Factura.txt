@@ -1,0 +1,12 @@
+
+============= FACTURA =============
+
+Cliente: Juana
+
+Videojuego: Gog
+
+Precio: 12000 colones
+
+Saldo restante: 288000 colones
+
+==================================

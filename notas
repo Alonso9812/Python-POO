@@ -1,0 +1,50 @@
+# investigar sobre
+
+#Duck Typing
+#Es un concepto en programación orientada a objetos que se refiere a la capacidad de un objeto para ser utilizado en un contexto específico
+#  sin importar su tipo real. En lugar de verificar el tipo de un objeto, se verifica si el objeto tiene los métodos o atributos necesarios
+#  para realizar una tarea específica. El término "duck typing" proviene de la frase "si parece un pato, nada como un pato y grazna como un pato,
+#  entonces es un pato". En otras palabras, si un objeto tiene las características necesarias para ser utilizado en un contexto determinado, 
+# entonces se puede tratar como si fuera del tipo esperado, independientemente de su tipo real.
+
+
+#Enlaces dinámicos
+#En Python, los enlaces dinámicos se refieren a la capacidad de asociar métodos y atributos a objetos en tiempo de ejecución. Esto significa que
+#  puedes agregar, modificar o eliminar métodos y atributos de un objeto después de que ha sido creado.
+#Los enlaces dinámicos permiten una gran flexibilidad en la programación, ya que puedes adaptar el comportamiento de los objetos según las necesidades
+#  del programa. Por ejemplo, puedes agregar un nuevo método a una instancia de una clase sin afectar a otras instancias de la misma clase.
+#Aquí hay un ejemplo de enlaces dinámicos en Python:
+
+#Enlaces estáticos
+#Los enlaces estáticos se refieren a la asociación de métodos y atributos a objetos en tiempo de compilación. En este caso, el tipo de un objeto
+#  se determina en el momento de la compilación y no puede cambiar durante la ejecución del programa. En lenguajes de programación con enlaces estáticos, 
+# como Java o C++, el tipo de un objeto debe ser declarado explícitamente y no puede cambiar
+# durante la ejecución. Esto significa que una vez que un objeto ha sido creado con un tipo específico, no se puede cambiar a otro tipo sin crear un nuevo
+#  objeto. En Python, los enlaces son dinámicos, lo que permite una mayor flexibilidad en la programación, pero también puede llevar a errores si no se
+#  tiene cuidado al manipular objetos y sus atributos.
+
+#Tipo real 
+#El tipo real de un objeto se refiere a la clase o tipo específico al que pertenece un objeto en tiempo de ejecución. En Python, el tipo real de un objeto
+#  se determina dinámicamente en tiempo de ejecución, lo que significa que un objeto puede cambiar su tipo durante la ejecución del programa. El tipo real 
+# de un objeto se puede verificar utilizando la función built-in `type()`, que devuelve la clase o tipo específico al que pertenece el objeto. Por ejemplo:
+
+class MiClase:
+    pass
+objeto = MiClase()
+print(type(objeto))  # Output: <class '__main__.MiClase'>
+
+#Tipo declarado 
+#El tipo declarado de un objeto se refiere al tipo que se le asigna a una variable o referencia en el código fuente. En lenguajes de programación con tipos
+#  estáticos, como Java o C++, el tipo declarado de una variable debe ser especificado explícitamente y no puede cambiar durante la ejecución del programa.
+#  En Python, el tipo declarado de una variable no es necesario, ya que Python es un lenguaje de tipado dinámico. Sin embargo, se puede utilizar la función 
+# `type()` para verificar el tipo declarado de una variable en tiempo de ejecución. Por ejemplo:
+
+variable = 42
+print(type(variable))  # Output: <class 'int'>
+variable = "Hola"
+print(type(variable))  # Output: <class 'str'>
+
+#Decoradores
+
+#Crear un juego para fusionar personajes 
+

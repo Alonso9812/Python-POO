@@ -1,0 +1,4 @@
+USUARIOS REGISTRADOS
+
+Jordi , jor@gmail.com, 1234
+Alonso, alon@gmail.com, 4567

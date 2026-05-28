@@ -1,0 +1,8 @@
+Usuarios de la plataforma
+
+Jordi, jordi@gmail.com, 5000
+Carlos, admin@gmail.com, 10000
+Juana, juana@gmail.com, 300000
+Lucas, luca@gmail.com, 54000
+Tatiana, taty@gmail.com, 59000
+Paulina, penas@gmail.com, 300000
