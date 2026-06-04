@@ -1,0 +1,5 @@
+Jordi,jordi@gmail.com,1234,5,100,250
+Maria,maria@gmail.com,abcd,3,80,150
+Carlos,carlos@gmail.com,5678,7,120,400
+Ana,ana@gmail.com,pass123,2,90,75
+Luis,luis@gmail.com,qwerty,4,110,180

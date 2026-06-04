@@ -1,0 +1,5 @@
+Orco,100,25
+Goblin,60,15
+Trol,150,35
+Esqueleto,80,20
+Dragon,300,50
