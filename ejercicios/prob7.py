@@ -51,3 +51,12 @@ for i in lista:
         duplicados.append(i)
 print("Los elementos duplicados en la lista son: " + str(duplicados))
 
+#ordenar lista sin usar sort()
+
+lista = [5, 2, 9, 1, 5, 6]
+for i in range(len(lista)):
+    for j in range(i + 1, len(lista)):
+        if lista[i] > lista[j]:
+            lista[i], lista[j] = lista[j], lista[i]
+print("Lista ordenada: " + str(lista))
+
